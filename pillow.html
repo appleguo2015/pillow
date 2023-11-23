@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<style>
+    * {
+        text-align: center;
+    }
+
+    img {
+        width: 540px;
+        height: 324px;
+        transition: width, height 0.25s;
+    }
+
+    img:hover {
+        width: 550px;
+        height: 334px;
+    }
+
+    img:active {
+        width: 530px;
+        height: 314px;
+    }
+
+    a {
+        text-align: start;
+    }
+</style>
+<link href="pillow.ico" rel="icon">
+<title>Pillow Clicker</title>
+</link>
+<a href="goToPillowClicker.html">back</a>
+<img id="pillow" onclick="f()" src="pillow.png">
+<script>
+    var count = 0
+
+    function f() {
+        count++
+        alert(count)
+    }
+</script>
+</html>
